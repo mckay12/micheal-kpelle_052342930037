@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name="viewport" content="with=device-width, initial-
+        scale=1.0">
+
+
+        <title>University website</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    </head>
+
+
+    <body>
+
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/Logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="About.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <h1> About Us </h1>
+          
+        </section>
+
+
+<!--------about us content-------->
+
+<section class="about-us">
+
+    <div class="row">
+
+
+        <div class="about-col">
+            <h1>we are the World largest university</h1>
+            <p>We are thrilled to inform you that your recent purchase of the latest Ogabassey smartphone has been successfully processed and is on its way to you. You can expect to experience unparalleled performance and cutting-edge features with your new device.</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about.png">
+        </div>
+
+    </div>
+
+
+
+</section>
+
+<!------footer------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We appreciate your trust in Ogabassey and are committed to providing you with the best service. Should you have any questions or need further assistance,<br>please do not hesitate to contact our customer support.</p>
+
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+
+    <p>made my micheal kpelle  <i class="fa fa-heart-o"></i></p>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---------------------------------javascript for toggle menu---------------------------------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hidemenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+    <!---------------------------------javascript for toggle menu---------------------------------->
+
+    </body>
+</html>
